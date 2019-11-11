@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -16,7 +13,5 @@
     <p><?php echo('回答: 22÷3 = ' . (floor(22/3)). 'です。'); ?></p>
     <p><?php echo('回答:'  .(6/36) . 'です。'); ?></p>
     <?php echo('<p>回答例: 1 + 1 = ' . (1 + 1) . 'です。</p>'); ?>
-</body>
-<body>
 </body>
 </html>
