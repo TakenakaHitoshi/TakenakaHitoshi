@@ -27,7 +27,8 @@
 <p>1-2</p>
 <p>
     <?php
-     echo ("過去５年間の平均年収は".((4410000+4320000+4220000+4200000+4150000)/5)."円です。");
+     echo ("過去５年間の平均年収は".(($averageSalaryArray[2018]+$averageSalaryArray[2017]+$averageSalaryArray[2016]
+     +$averageSalaryArray[2015]+$averageSalaryArray[2014])/5)."円です。");
     ?>
 </p>
 <p>課題２</p>
@@ -51,7 +52,8 @@
 <p>2-2</p>
 <p>
     <?php
-     echo ("テストのの平均点数は".((80+55+61+76+34+93)/6)."点です。");
+     echo ("テストのの平均点数は".(($memberScore["A"]+$memberScore["B"]+$memberScore["C"]
+     +$memberScore["D"]+$memberScore["E"]+$memberScore["F"])/6)."点です。");
     ?>
 </p>
 </body>
