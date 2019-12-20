@@ -9,7 +9,6 @@
 <body> 
 <?php
     $int = rand(1, 15);
-    $number = rand(1, 100);
     function randomRecursiveCalc(int $int){
         $sum = 0;
         $array = [];
