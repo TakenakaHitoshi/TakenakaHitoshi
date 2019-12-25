@@ -8,7 +8,7 @@
 </head>
 <body>
 <p>課題１</p>
-<p>NSERT into `country` VALUES</p>
+<p>INSERT into `country` VALUES</p>
 <p>(1,'日本','アジア','日本語',81),</p>
 <p>(2,'イタリア','ヨーロッパ','イタリア語',39),</p>
 <p>(3,'アメリカ 合衆国','北アメリカ','英語',1),</p>

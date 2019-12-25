@@ -10,7 +10,7 @@
 <p>課題１</p>
 <p>1</p>
 <p>パターン１</p>
-<p>sselect country.`name`, area, heritage.`name` from `heritage` 
+<p>select country.`name`, area, heritage.`name` from `heritage` 
     inner join `country` ON country.`id` =`heritage`.`country_id`;</p>
 <p>パターン２</p>
 <p>select country.`name` as countryName , area, heritage.`name` as heritageName from `heritage` 
@@ -18,11 +18,11 @@
 
 <p>2</p>
 <p>select country.`name` as countryName , area, heritage.`name` as heritageName from `heritage` 
-    inner join `country` ON country.`id` =`heritage`.`country_id` where area = 'ヨーロッパ';</p>
+    inner join `country` ON country.`id` =`heritage`.`country_id` where country.area = 'ヨーロッパ';</p>
 
 <p>3</p>
 <p>select country.`name` as countryName ,`number`, heritage.`name` as heritageName from `heritage` 
-    inner join `country` ON country.`id` =`heritage`.`country_id`where number >= 40;</p>
+    inner join `country` ON country.`id` =`heritage`.`country_id`where country.number >= 40;</p>
 <p>4</p>
 <p>select country.`name` as countryName , heritage.`name` as heritageName from `heritage` 
-    inner join `country` ON country.`id` =`heritage`.`country_id` where type = '自然';</p>
+    inner join `country` ON country.`id` =`heritage`.`country_id` where `heritage`.type = '自然';</p>

@@ -12,7 +12,7 @@
 <p>id int NOT NULL AUTO_INCREMENT PRIMARY KEY,</p>
 <p>name VARCHAR(20) NOT NULL,</p>
 <p>area VARCHAR(10),</p>
-<p>lang varchar(10) DEFAULT 'English',</p>
+<p>lang varchar(10) DEFAULT '英語',</p>
 <p>number int NOT NULL DEFAULT 0);</p>
 
 <p>課題２</p>

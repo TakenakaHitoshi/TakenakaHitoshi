@@ -9,7 +9,7 @@
 <body>
 <p>課題１</p>
 <p>1</p>
-<p>update country set area = '東アジア' where area = 'アジア';
+<p>update country set area = '東アジア' where name = '日本';
 select * from country where area = 'アジア';</p>
 <p>2</p>
 <p>select * from heritage where `name` = '富士山'and `type` = '自然';
