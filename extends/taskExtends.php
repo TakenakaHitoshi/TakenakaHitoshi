@@ -17,10 +17,10 @@ $Yoko = new Brave('ようこ','女','勇者', 24, 6, 13, 8);
 $Rina = new Witch('りな','女','魔法使い', 16, 11, 5, 4);
 $Takashi = new Priest('たかし','男','僧侶', 18, 8, 9, 6);
 
-$PeopleA->Attack();
-$Yoko->attack();
-$Rina->attack();
-$Takashi->attack();
+echo $PeopleA->Attack();
+echo $Yoko->attack();
+echo $Rina->attack();
+echo $Takashi->attack();
 ?>
 </body>
 </html>

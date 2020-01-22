@@ -2,7 +2,7 @@
 require_once("Hero.php");
 class Brave extends Hero{
     public function attack(){
-        echo "剣で攻撃しました！". "<br>";
+        return "剣で攻撃しました！". "<br>";
     }
 }
 ?>
