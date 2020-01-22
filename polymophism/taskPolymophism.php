@@ -22,10 +22,10 @@ $Takashi = new Priest('たかし','男','僧侶', 18, 8, 9, 6);
 $mitsuya = new Playman('みつや','男','遊び人', 16, 7, 7, 7);
 $party = new Party($Yoko);
 
-$party->addHero($Rina);
-$party->addHero($Takashi);
-$party->addHero($mitsuya);
-$party->addHero($PeopleA);
+echo $party->addHero($Rina);
+echo $party->addHero($Takashi);
+echo $party->addHero($mitsuya);
+echo $party->addHero($PeopleA);
 $party->AllHeroAttack();
 ?>
 </body>

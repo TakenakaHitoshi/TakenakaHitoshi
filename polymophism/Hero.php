@@ -36,7 +36,7 @@ class Hero{
         return $this->defense;
     }
     function Attack(){
-        echo "攻撃しました！". "<br>";
+        return "攻撃しました！". "<br>";
     }
 }
 ?>
